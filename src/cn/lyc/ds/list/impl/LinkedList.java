@@ -120,7 +120,7 @@ public class LinkedList<T> implements List<T>,Stack<T>,Queue<T> {
 		
 		if(prev == null){
 			
-			first = prev;
+			first = null;
 			
 		}else{
 			

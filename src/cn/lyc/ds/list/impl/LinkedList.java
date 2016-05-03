@@ -108,13 +108,13 @@ public class LinkedList<T> implements List<T>,Stack<T>,Queue<T> {
 	 * @param last
 	 * @return
 	 */
-	private T unLinkLast(Node<T> last){
+	private T unLinkLast(Node<T> l){
 		
-		T item = last.item;
-		Node<T> prev = last.prev;
+		T item = l.item;
+		Node<T> prev = l.prev;
 		
-		last.item = null;
-		last.prev = null;
+		l.item = null;
+		l.prev = null;
 		
 		last = prev;
 		
